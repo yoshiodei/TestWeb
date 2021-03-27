@@ -1,0 +1,44 @@
+.landing {
+    height: 100vh;
+    background-color: gray;
+    background-image: url(../images/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    
+    
+
+    &__main {
+        height: 88vh;
+        width: 100%;
+        text-align: center;
+        padding: 7rem 5rem 0;
+        color: white;
+        
+    
+    
+    &__line {
+        height: 5px;
+        margin: auto;
+        width: 200px;
+    }
+        
+        &__heading {
+            margin-bottom: 20px;
+            text-transform: capitalize;
+        } 
+        
+        &__para {
+        margin: 20px 0;
+        }    
+        
+    }
+    
+    &__nav {
+        height: 8vh;
+        margin: 0;
+        padding: 0;
+        border-radius: 0 !important;
+    }
+}
+
